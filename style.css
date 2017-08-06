@@ -1,0 +1,339 @@
+
+/*------------------- UKLAD---------------------*/
+#body{
+ background: url(top.jpg) no-repeat top;
+ margin: auto;
+ background-color:black;
+ padding: 0;
+}
+
+#top{
+	   background-color: black;
+    width: 100%;
+       border-bottom-color: rgba(94, 210, 255, 0.74);
+    top: 0;
+    position: fixed;
+    border-bottom-style: solid;
+    text-align: center;
+	z-index: 1;
+	 transition-duration:4s;
+}
+#prawy_gorny{
+	    z-index: 1;
+    right: 0;
+
+    margin-right: 20;
+    margin-top: 10;
+    top: 0;
+
+    /* padding: 5; */
+    position: fixed;
+    display: -webkit-inline-box;
+}
+#tlo{
+	display: block;
+	    z-index: 0;
+    height: 340;
+    text-align: center;
+    width: 100%;
+         margin-top: 260;
+    /* background-color: rgb(255, 255, 255); */
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    /* transition: all 0.5s ease-in-out; */
+}
+#opis{
+    text-align: center;
+    font-family: serif;
+    font-size: 23px;
+    line-height: 150%;
+    width: 60%;
+    color: white;
+	    float: right;
+}
+#stopka{
+	text-align: center;
+	padding-top: 25;
+	color: white;
+	border-top-color: rgba(94, 210, 255, 0.74);
+    border-top-style: solid;
+	text-align: center;
+    color: white; 
+	padding-bottom: 10;
+}
+/*******-----------------------------Co nas łączy--------------*/
+#kim{
+	
+	background-color: rgb(21, 21, 21);
+   
+	width: 100%;
+	    z-index: 0;
+    border-top-color: #404040;
+    border-top-style: solid;
+	border-bottom-color: #404040;
+    border-bottom-style: solid;
+}
+#tytul{
+	font-size: 60;
+    font-style: italic;
+	 text-align: center;
+    color: #FFFFFF;
+	height: 150;
+	margin-top: 35;
+	    text-shadow: 0 2px 0 #000000, 0 3px 0 #018BD0, 0 3px 4px rgb(2, 140, 209);
+}
+#opisy{
+	  color: white;
+	  font-style: italic;
+	  font-size: 18;
+}
+
+#kwadraty{
+	    display: table-cell;
+    width: 400;
+    padding-left: 40;
+    padding-right: 40;
+}
+#tytul2{
+	    font-size: 30;
+    color: rgba(0, 170, 255, 0.82);
+    text-shadow: 3px 3px 5px black;
+}
+#k1{
+	 padding-left: 20%;
+    padding-right: 2%;
+	text-align: center;
+}
+#obrazki{
+	  float:left; 
+	  height: 50;
+}
+
+
+#gallery {
+	   width: 530;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 4px solid silver;
+    z-index: 0;
+}
+
+
+
+/**------pbp*********/
+#pbp{
+        height: 650;
+    width: 100%;
+    padding-top: 150;
+    text-align: center;
+    color: white;
+    z-index: 0;
+}
+#opis1{
+	font-size: 23;
+	display: inline-table;
+	
+}
+#kilka{
+          font-size: 50;
+    font-variant: small-caps;
+    font-family: serif;
+    margin-top: 30;
+    text-shadow: 0 2px 0 #000000, 0 3px 0 #FF0000, 0 3px 4px rgba(255, 255, 255, 0.86);
+}
+#klan{
+	    line-height: 1.5;
+		font-style: italic;
+	
+}
+/*****------Kontakt-------------------*/
+
+#kontakt{
+	 height: 180;
+    width: 323;
+	text-align: center;
+	display: table-cell;
+}
+/******LINKI Dolne-----*/
+a#media1{
+	display: block;
+width: 319;
+height: 180;
+background-image: url(media/f.png);
+	
+}
+a:hover#media1 {
+background-image: url(media/df.png);
+}
+a:active#media1{
+	
+background-image: url(media/ddf.png);
+	
+}
+/************************2******************************/
+a#media2{
+	display: block;
+width: 319;
+height: 180;
+background-image: url(media/y.png);
+}
+a:hover#media2 {
+background-image: url(media/dy.png);
+}
+a:active#media2{
+	
+background-image: url(media/ddy.png);
+	
+}
+/*********************3***********************************/
+
+a#media3{display: block;
+width: 319;
+height: 180;
+background-image: url(media/ts.png);
+}
+a:hover#media3 {
+background-image: url(media/dts.png);
+}
+a:active#media3{
+	
+background-image: url(media/ddts.png);
+	
+}
+
+/********Social mecia**********/
+#f1{
+	display: block;
+    width: 33;
+    height: 33;
+    
+    margin-right: 15;
+	background-image: url(social_media/facebook.png);
+}
+a:hover#f1 {
+background-image:url(social_media/dfacebook.png);
+
+}
+a:active#f1{
+	
+background-image:url(social_media/ddfacebook.png);
+
+	
+}
+#f2{
+	display: block;
+    width: 33;
+    height: 33;
+    
+    margin-right: 15;
+	background-image: url(social_media/p.png);
+	 
+}
+a:hover#f2 {
+background-image:url(social_media/dp.png);
+
+}
+a:active#f2{
+	
+background-image:url(social_media/ddp.png);
+
+	
+}
+#f3{
+	display: block;
+    width: 33;
+    height: 33;
+    
+    margin-right: 15;
+	background-image: url(social_media/wiadomosc.png);
+}
+a:hover#f3 {
+background-image:url(social_media/dwiadomosc.png);
+
+}
+a:active#f3{
+	
+background-image:url(social_media/ddwiadomosc.png);
+
+	
+}
+#f4{
+	display: block;
+    width: 33;
+    height: 33;
+    
+    margin-right: 15;
+	background-image: url(social_media/teamspeak.png);
+}
+a:hover#f4 {
+background-image:url(social_media/dteamspeak.png);
+
+}
+a:active#f4{
+	
+background-image:url(social_media/ddteamspeak.png);
+
+	
+}
+#text1{
+	padding-left: 440;  
+	color: white;    
+	font-size: 5;
+}
+#text2{
+	 text-shadow: 2px 2px 2px black;
+}
+#f5{
+	display: block;
+    width: 33;
+    height: 33;
+    
+    margin-right: 15;
+	background-image: url(social_media/tube.png);
+}
+a:hover#f5 {
+background-image:url(social_media/dtube.png);
+
+}
+a:active#f5{
+	
+background-image:url(social_media/ddtube.png);
+
+	
+}
+#logo1{
+	height: 110;
+}
+/****-----JQERY--------------------*/
+#logo1.visible{
+	height:70px;
+}
+#top.visible{
+	height:10%;
+	
+	
+}
+
+
+
+#box{
+	
+}
+#box.visible{
+	display: -webkit-inline-box;
+}
+#menu{
+	
+}
+#menu.visible{
+	padding-top: 5%;
+}
+
+
+

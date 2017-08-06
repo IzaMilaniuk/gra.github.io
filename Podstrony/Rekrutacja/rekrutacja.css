@@ -1,0 +1,41 @@
+/*                  CSS do Rekrutacji                  */
+
+
+#linki{
+
+  }
+  #bataliony{
+color: #FFEBB2;
+font-size: 18px;
+font-weight: bold;
+display: inline-block;
+transition: all 0.3s ease-in-out 0s;
+margin-right: 2px;
+background: none repeat scroll 0% 0% rgba(4, 0, 0, 0.6);
+border-radius: 5px;
+/*padding: 0px 3px 2px;*/
+    margin: 15;
+	    margin-bottom: 5;
+  }
+  
+  #logo1.visible{
+	height:70px;
+}
+#top.visible{
+	height:10%;
+	
+	
+}#logo1{
+	height: 110;
+}
+#top{
+	   background-color: black;
+    width: 100%;
+       border-bottom-color: rgba(94, 210, 255, 0.74);
+    top: 0;
+    position: fixed;
+    border-bottom-style: solid;
+    text-align: center;
+	z-index: 1;
+	 transition-duration:4s;
+}
